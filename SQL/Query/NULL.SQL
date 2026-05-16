@@ -1,4 +1,5 @@
 # Write your MySQL query statement below
+#ifnull
 
 SELECT name
  FROM Customer 
@@ -6,6 +7,7 @@ SELECT name
 
 
 # Write your MySQL query statement below
+#IS NULL
 
 SELECT name
  FROM Customer 
