@@ -1,6 +1,4 @@
-# Write your MySQL query statement below
 #by UNION
-
 SELECT name, population, area
 FROM World 
 WHERE area >= 3000000
@@ -10,7 +8,6 @@ FROM World
 WHERE population >= 25000000
 
 # by OR
-
 SELECT name, population, area
 FROM World 
 WHERE area >= 3000000
