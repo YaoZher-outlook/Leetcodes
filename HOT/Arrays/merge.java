@@ -1,4 +1,4 @@
-package HOT.Substring;
+package HOT.Arrays;
 import java.util.*;
 
 class Solution {
