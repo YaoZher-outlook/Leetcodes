@@ -1,4 +1,4 @@
-package HOT.Substring;
+package HOT.Arrays;
 
 class Solution {
     public int maxSubArray(int[] nums) {
