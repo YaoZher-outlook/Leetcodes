@@ -37,7 +37,7 @@ class Solution {
             // 进入下一层决策树
             backtrack(nums, used, path, res);
 
-            // 撤销选择（回溯）：将刚刚加入的元素移除，并将其标记恢复为未使用
+            // 撤销选择：将刚刚加入的元素移除，并将其标记恢复为未使用
             // 这样才能在下一次循环中把它放到其他位置
             path.remove(path.size() - 1);
             used[i] = false;
