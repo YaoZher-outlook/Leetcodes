@@ -6,7 +6,6 @@ class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
         List<Integer> path = new ArrayList<>();
-        // 初始调用，从索引 0 开始
         backtracking(nums, 0, path, ans);
         return ans;
     }
