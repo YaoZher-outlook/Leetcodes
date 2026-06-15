@@ -1,4 +1,6 @@
 package HOT.TraceBack;
+import java.util.ArrayList;
+import java.util.List;
 
 class Solution {
     private String[] map = {
